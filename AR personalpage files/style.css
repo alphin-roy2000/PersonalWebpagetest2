@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.box1{
+    background: linear-gradient(to bottom right,#000428 0% 
+    ,#4568dc  100% );
+    min-height: 88vh;
+}
+.navigation1{
+    float: right;
+}
+.navigation1 ul li{
+ display: inline;
+ padding: 0 10px;
+
+
+
+}
+.navigation1 ul li a{
+    text-decoration: none;
+    color: white;
+    width: 115px;
+    height: 100%;
+
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+
+    
+}
+.navigation1 ul li a:hover{
+ background: cadetblue;
+}
