@@ -43,10 +43,13 @@ header{
 .hamburger-menu-wrapper{
     display: none;
 }
+.menu-list{
+    float: right;
+  
+}
 .menu-list ul{
     list-style: none;
-    display: flex;
-    float: right;
+   display: flex;
     
     margin-right: 30px;
 }
@@ -91,13 +94,17 @@ body::-webkit-scrollbar {
                                          color-stop(0.86, rgb(28,58,148)));
   }
 @media screen and (max-width:700px){
+    .logo{
+        margin-left: 20px;
+    }
     .menu-list ul{
         float: none;
         display: inline;
     }
     .hamburger-menu-wrapper{
         margin-right: 30px;
-        float: right;
+        position: absolute;
+        right: 0;
         background: transparent;
         padding: 5px;
         display: inline-block;
@@ -147,7 +154,7 @@ body::-webkit-scrollbar {
         text-align: center;
         z-index: 9999;
     }
-    .menu-list a{
+    .menu-list ul li  a{
         padding: 0;
         color: #C6D2D6;
         text-decoration: none;
