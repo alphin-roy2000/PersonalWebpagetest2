@@ -12,7 +12,7 @@ body{
     min-height: 88vh;
 }
 .background {
-    background: url(./background3.jpg);
+    background: url(./background2.jpg);
     min-height: 88vh;
     width: 100%;
     background-size: cover;
@@ -97,6 +97,7 @@ body::-webkit-scrollbar {
     .logo{
         margin-left: 20px;
     }
+    
     .menu-list ul{
         float: none;
         display: inline;
