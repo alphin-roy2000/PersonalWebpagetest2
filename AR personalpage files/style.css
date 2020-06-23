@@ -54,7 +54,7 @@ header{
     margin: 6px 15px;
 }
 .menu-list ul li a{
-    border-radius: 5px;
+    
 
     padding: 8px;
     color: #C6D2D6;
@@ -65,6 +65,8 @@ header{
         transition: all 0.5s ease;
 }
 .menu-list ul li a:hover{
+
+    border-radius: 5px;
     color: #02D5FD;
     background-color: indigo;
 }
@@ -146,6 +148,7 @@ body::-webkit-scrollbar {
         z-index: 9999;
     }
     .menu-list a{
+        padding: 0;
         color: #C6D2D6;
         text-decoration: none;
         font-size: 18px;
@@ -167,7 +170,7 @@ body::-webkit-scrollbar {
         left: 5px;
         right: 5px;
         height: 2px;
-        background: #A6808C;
+        background: #54426B;
     }
     
     .hamburger-menu span:before,
