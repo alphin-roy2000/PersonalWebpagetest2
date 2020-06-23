@@ -9,10 +9,10 @@ body{
 }
 .box1{
     
-    min-height: 88vh;
+    min-height: 100vh;
 }
 .background {
-    background: url(./background2.jpg);
+    background: url(./background3.jpg);
     min-height: 88vh;
     width: 100%;
     background-size: cover;
@@ -71,7 +71,7 @@ header{
 
     border-radius: 5px;
     color: #02D5FD;
-    background-color: indigo;
+    box-shadow: inset    -2px 2px 2px 2px rgba(0, 0, 0, 0.623);
 }
 body::-webkit-scrollbar {
     width: 5px;
@@ -166,6 +166,7 @@ body::-webkit-scrollbar {
     }
     .menu-list ul li a:hover{
         color: #02D5FD;
+        box-shadow: none;
         background-color: transparent;
     }
     .hamburger-menu:focus {
